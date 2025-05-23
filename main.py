@@ -3,6 +3,7 @@ import schemas,models
 from database import engine, SessionLocal
 from sqlalchemy.orm import Session
 from typing import List
+import logging
 
 app = FastAPI()
 
